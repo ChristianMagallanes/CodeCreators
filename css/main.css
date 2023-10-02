@@ -262,6 +262,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding-top: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -293,6 +299,7 @@
     width: auto;
     height: auto;
     padding: 0;
+    width: 350px;
   }
 }
 .producto .servicios-img {
