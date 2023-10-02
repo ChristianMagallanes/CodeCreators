@@ -23,7 +23,7 @@
   height: 45px;
   @include mobile{
         text-align: center;
-    width: 100%;
+    
   }
   .logo {
     height: 100%;
@@ -79,11 +79,11 @@
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(13, end),
+  animation: typing .5s steps(13, end),
     blink-caret 0.5s step-end infinite alternate;
     @include mobile{
-      animation: typing 2s steps(15, end),
-      blink-caret 0.5s step-end infinite alternate;
+      animation: typing 900ms steps(300, end),
+      blink-caret .2s step-end infinite alternate;
     }
 }
 @-webkit-keyframes typing {
@@ -91,40 +91,6 @@
     width: 0;
   }
 }
-@-webkit-keyframes blink-caret {
-  50% {
-    border-color: transparent;
-  }
-}
 
 
-/* Estilos originales de .navbar */
-
-
-
-  /* Estilos para el menú hamburguesa */
-  .menu-icon {
-    display: block; /* Mostrar el icono del menú */
-    cursor: pointer;
-  }
-
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
-    transition: 0.4s;
-  }
-
-  .change .bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .change .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .change .bar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
 
