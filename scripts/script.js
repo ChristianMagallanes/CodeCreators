@@ -11,3 +11,5 @@ const verPlanesBtn = document.getElementById("ver-planes-btn");
 verPlanesBtn.addEventListener("click", function(){
   window.location.href = './pages/planes.html';
 });
+
+

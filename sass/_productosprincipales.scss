@@ -17,12 +17,13 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #f8f8f8; 
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 8px;
     width: 404px;
     height: 376;
-    box-shadow: rgba(0, 0, 0, 0.195) 5px 5px 10px 1px;
+   
+   
     @include mobile{
         width: auto;
         height:auto ;
@@ -49,7 +50,7 @@
     }
     .servicios-p{
         text-align: center;
-        font-family: monospace;
+        font-family: Poppins;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
