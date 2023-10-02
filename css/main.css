@@ -129,8 +129,7 @@
   grid-template-columns: 2fr 2fr;
   grid-template-columns: 1fr;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(54%, #101010), to(rgb(255, 255, 255)));
-  background: linear-gradient(180deg, #101010 54%, rgb(255, 255, 255) 100%);
+  background-image: url(../assets/assets/hero2.jpg);
   -webkit-box-shadow: #ffffff 0px 120px 40px 100px;
           box-shadow: #ffffff 0px 120px 40px 100px;
 }
@@ -149,6 +148,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 .header .new-product-container {
