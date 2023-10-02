@@ -24,9 +24,16 @@
     @include mobile{
       padding-left: 0;
       margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
     .log {
       margin-bottom: 50px;
+      @include mobile{
+        text-align: center;
+      }
     }
     .copy {
       color: #fff;

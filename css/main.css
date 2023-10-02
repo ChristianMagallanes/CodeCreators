@@ -103,6 +103,12 @@
   -webkit-animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
           animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
 }
+@media screen and (max-width: 480px) {
+  .typing {
+    -webkit-animation: typing 2s steps(15, end), blink-caret 0.5s step-end infinite alternate;
+            animation: typing 2s steps(15, end), blink-caret 0.5s step-end infinite alternate;
+  }
+}
 
 @-webkit-keyframes typing {
   from {
@@ -754,10 +760,23 @@
   .footer .footer-data {
     padding-left: 0;
     margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .footer .footer-data .log {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 480px) {
+  .footer .footer-data .log {
+    text-align: center;
+  }
 }
 .footer .footer-data .copy {
   color: #fff;
