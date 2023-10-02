@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 480px) {
   .logo-container .logo {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .logo-container .logo .logo-span {
@@ -63,6 +63,11 @@
   display: -ms-flexbox;
   display: flex;
   gap: 34px;
+}
+@media screen and (max-width: 480px) {
+  .btn-container {
+    gap: 10px;
+  }
 }
 
 .nav-btn {
@@ -599,6 +604,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
 }
 .planes-container .planes {

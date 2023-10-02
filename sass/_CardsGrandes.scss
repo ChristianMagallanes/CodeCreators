@@ -204,6 +204,7 @@
   @include mobile{
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
   .planes{
   display: flex;
