@@ -1,0 +1,82 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Para separar el logo de los botones */
+  align-items: center;
+  width: 1110px;
+  height: 80px;
+  border-bottom: solid #fff 1px;
+  margin: 0 auto; /* Centrar horizontalmente el navbar si es necesario */
+  @include desktop2 {
+    width: 800px;
+  }
+  @include mobile{
+    width:350px;
+   position: relative;
+   top: -120px;
+   flex-direction: column;
+   height: auto;
+  }
+}
+
+.logo-container {
+  flex-shrink: 0; /* Evitar que el logo se reduzca */
+  height: 45px;
+  .logo {
+    height: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    @include mobile{
+      font-size: 24px;
+    }
+    .logo-span {
+      color: #ffa500;
+    }
+  }
+}
+
+.btn-container {
+  display: flex;
+  gap: 34px;
+}
+
+.nav-btn {
+  cursor: pointer;
+  background: none;
+  border: hidden;
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  &:hover {
+    color: #ffa500;
+  }
+}
+.carrito-container {
+  display: flex;
+  gap: 20px;
+}
+
+.typing {
+  width: 13ch;
+  
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(13, end),
+    blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}

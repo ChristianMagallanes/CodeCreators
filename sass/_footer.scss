@@ -1,0 +1,94 @@
+.footer {
+  background: #101010;
+  height: 365px;
+  display: flex;
+  justify-content: space-around;
+  @include mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .footer-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 200px;
+    @include desktop2{
+     padding-left: 50px;     
+    }
+    @include mobile{
+      padding-left: 0;
+    }
+    .log {
+      margin-bottom: 50px;
+    }
+    .copy {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px; /* 166.667% */
+    }
+    .p-container {
+      width: 540px;
+      @include desktop2{
+       width: 400px;   
+      }
+      @include mobile{
+        width: auto;
+      }
+      p {
+        color: #fff;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px; /* 166.667% */
+        opacity: 0.5;
+        margin-bottom: 50px;
+        @include mobile{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .footer-links {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    .btn-container{
+        padding-top: 50px;
+        margin-left: 180px;
+        @include desktop1{
+          margin-left: 0;
+        }
+        @include mobile{
+          margin-left: 0;
+          width: auto;
+        }
+    }
+    .redes {
+        display: flex;
+        justify-content: end;
+        margin-top: 100px;
+        margin-right: 230px;
+        gap: 30px;
+     @include mobile{
+      margin-right: 0;
+      height: auto;
+     }
+    
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

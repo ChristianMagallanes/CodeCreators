@@ -1,0 +1,132 @@
+.header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr ;
+    height: 100vh; 
+    background-color: #000000;
+    background-image: url(../assets/assets/hero3.jpg);    
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x:200px ;
+    background-position-y:-100px ;
+    @include mobile{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @include desktop1{
+       
+    }
+    @include desktop2{
+        
+    }
+    .new-product-container{
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 200px;
+        width: 800px;
+        height: 346px;
+        flex-shrink: 0;
+        color: #FFF;
+        @include mobile{
+            text-align: center;
+            margin: 0;
+            height: auto;
+            width: auto;
+        }
+        .new-product-tittle{
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            opacity: 0.4964;
+            
+        }
+        .new-product-name{
+            padding-bottom: 20px;
+            font-size: 56px;
+            font-family: 'Manrope', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 58px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            @include mobile{
+                font-size: 24px;
+            }
+        }
+        .new-product-p{
+            width: 37  9px;
+            height: 75px;
+            padding-bottom: 20px;
+            font-family: "Manrope";
+            font-style: normal;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 25px;
+            opacity: 0.75;
+        }
+        .new-product-btn{
+            cursor: pointer;
+            background: #D87D4A;
+            width: 160px;
+            height: 48px;
+            flex-shrink: 0;
+            border: hidden;
+            color: #FFF;
+            font-family: "Manrope";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            &:hover{
+                background-color: #FBAF85;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.header-planes{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr ;
+    text-align: center;
+    height: 400px; 
+    background-color: #000000;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    .planes-precios{
+        color: #FFF;
+        padding-bottom: 20px;
+        font-size: 46px;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    @include desktop1{
+       
+    }
+    @include desktop2{
+        
+    }
+    }
