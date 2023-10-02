@@ -21,6 +21,10 @@
 .logo-container {
   flex-shrink: 0; /* Evitar que el logo se reduzca */
   height: 45px;
+  @include mobile{
+        text-align: center;
+    width: 100%;
+  }
   .logo {
     height: 100%;
     color: #fff;
@@ -28,6 +32,10 @@
     font-family: "Poppins";
     @include mobile{
       font-size: 20px;
+      @include mobile{
+        
+        width: 100%;
+      }
     }
     .logo-span {
       color: #ffa500;

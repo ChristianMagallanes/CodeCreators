@@ -44,6 +44,12 @@
       flex-shrink: 0; /* Evitar que el logo se reduzca */
   height: 45px;
 }
+@media screen and (max-width: 480px) {
+  .logo-container {
+    text-align: center;
+    width: 100%;
+  }
+}
 .logo-container .logo {
   height: 100%;
   color: #fff;
@@ -53,6 +59,11 @@
 @media screen and (max-width: 480px) {
   .logo-container .logo {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 480px) {
+  .logo-container .logo {
+    width: 100%;
   }
 }
 .logo-container .logo .logo-span {
