@@ -15,12 +15,12 @@
     }
 }
 @mixin mobile480 {
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:642px) {
         @content;
     }
 }
 @mixin mobile320 {
-    @media screen and (max-width:320px){
+    @media screen and (max-width:348px){
         @content;
     }
 }
