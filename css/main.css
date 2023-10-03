@@ -465,7 +465,7 @@ body {
 @media screen and (max-width: 642px) {
   .servicio-card .servicio-titulo-container .servicio-titulo {
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     margin-right: 0;
     padding-bottom: 10%;
   }
@@ -565,7 +565,7 @@ body {
     top: -80px;
     width: 300px;
     height: auto;
-    margin-top: 15%;
+    margin-top: 70px;
   }
 }
 @media screen and (max-width: 348px) {
