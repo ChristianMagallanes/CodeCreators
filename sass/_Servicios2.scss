@@ -4,18 +4,19 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
- 
+
   .zx9 {
     display: flex;
    justify-content: center;
-    width: 1110px;
-    height: 560px;
-    background: #f8f7f7;
+   
+    
+    background-color: #1e1d20;
     border-radius: 8px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
     @include desktop2{
-      width: 1000px;
-      height: 505px;
+      width: 800px;
+      height: 405px;
     }
     @include mobile{
      flex-direction: column;
@@ -25,13 +26,13 @@
     }
     .cards-zx9-img {
       display: flex;
-
-      height: 100%;
-      width: 51%;
+      position: relative;
+      height: 400px;
+      width: 400px;
+      top: -150px;
+      left: -100px;
       border-radius: 8px 0px 0px 8px;
-      background-image: url(../assets/assets/img1.jpg);
-      background-repeat: no-repeat;
-      background-size: 100%;
+      
       
       @include mobile{
         width: 100%;
@@ -42,13 +43,13 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 50%;
+     padding: 5px;
       @include mobile{
         height: auto;
       }
       .data-container {
-        width: 349px;
-        height: 303px;
+        width: 549px;
+        
         flex-shrink: 0;
         @include mobile{
           text-align: center;
@@ -57,7 +58,7 @@
       }
       .cards-zx9-title {
         margin-bottom: 50px;
-        color: #000000;
+        color: #ffffff;
         font-family: "Manrope";
         font-size: 30px;
         font-style: normal;
@@ -71,8 +72,9 @@
         }
       }
       .cards-zx9-parrafo {
-        margin-bottom: 50px;
-        color: #000000;
+        margin-bottom: 10px;
+        margin-right: 150px;
+        color: #ffffff;
         font-family: "Manrope";
         font-size: 15px;
         font-style: normal;
@@ -213,7 +215,8 @@
 .planes-container{
   display: flex;
   gap: 30px;
-  padding: 30px;
+  padding: auto;
+  
   @include mobile{
     display: flex;
     flex-direction: column;
@@ -222,18 +225,23 @@
   .planes{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
     text-align: center;
-    background-color: #eaeaea;
+    background-color: #ffffff;
     width: 300px;
-    padding: 30px;
+    height: 300px;
+    box-shadow: 0px 0px 5px 1px;
+    
     .planes-parrafo{
       font-family: Manrope;
-      padding: 20px;
+      padding: 5px;
     }
     .planes-titulo{
       background-color:#6EC1E4; 
       border-radius: 8px;
+      padding: 5px;
       color: #000000;
       font-family: "Poppins";
       text-transform: uppercase;
@@ -259,3 +267,5 @@
     }
   }
 }
+
+

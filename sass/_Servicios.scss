@@ -1,0 +1,204 @@
+/* container de los servicios */
+.servicios-container {
+  justify-content: center;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  @include mobile {
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 50%;
+  }
+}
+
+/* servicio CARD */
+.servicio-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  background-color: #1e1d20;
+  border-radius: 8px;
+  @include mobile {
+    padding: 0;
+    width: 400px;
+    height: 150px;
+  }
+  /* container del titulo del servicio */
+.servicio-titulo-container{
+   width: 700px;
+   @include mobile{
+    width: 100%;
+    text-align: center;
+   }
+   /* titulo del servicio */
+    .producto-titulo {
+        color: #ffffff;
+        margin-right: 150px;
+        border-radius: 10px;
+        text-align: center;
+        font-family: 'Work Sans';
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        @include mobile{
+          font-size: 18px;
+        }
+      }
+  }
+ 
+  
+  /* imagen del servicio */
+  .servicios-img-1 {
+    height: 250px;
+    position: relative;
+    left: -150px;
+    top: -160px;
+    @include mobile{
+      height: 100px;
+      left: -20px;
+      top: -50px;
+    }
+  }
+  .servicios-img-2 {
+    height: 250px;
+    position: relative;
+    right: -850px;
+    top: -160px;
+    @include mobile{
+      height: 100px;
+      right: -325px;
+      top: -65px;
+    }
+  }
+  .servicios-img-3 {
+    height: 250px;
+    position: relative;
+    left: -150px;
+    top: -160px;
+    @include mobile{
+      height: 100px;
+      left: -20px;
+      top: -50px;
+    }
+  }
+}
+/* parrafo del servicio */
+.servicios-p-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -150px;
+    left: 400px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px 5px;
+    width: 500px;
+    @include mobile{
+      left: 70px;
+      top: -80px;
+      width: 300px;
+      height: auto;
+      margin-top: 15%;
+    }
+    .servicios-p {
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        font-family: 'Work Sans';
+        color: #000000;
+        padding: 20px;
+        @include mobile{
+          font-size: 14px;
+          
+        }
+      }
+      
+}
+.servicios-p-container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -150px;
+  left: -400px;
+  width: 300px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px 5px;
+  width: 500px;
+  @include mobile{
+    left: -80px;
+    top: -90px;
+    width: 300px;
+    height: auto;
+    margin-top: 15%;
+  }
+  .servicios-p {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1px;
+      font-family: 'Work Sans';
+      color: #000000;
+      padding: 20px;
+      @include mobile{
+        font-size: 14px;
+      }
+    }
+    
+}
+.servicios-p-container-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -150px;
+  left: 400px;
+  width: 300px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px 5px;
+  width: 500px;
+  @include mobile{
+    left: 70px;
+    top: -80px;
+    width: 300px;
+    height: auto;
+    margin-top: 15%;
+  }
+  .servicios-p {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1px;
+      font-family: 'Work Sans';
+      color: #000000;
+      padding: 20px;
+      @include mobile{
+        font-size: 14px;
+      }
+    }
+    
+}

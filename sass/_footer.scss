@@ -2,6 +2,7 @@
   background: #101010;
   height: 365px;
   display: flex;
+  width: 100%;
   justify-content: space-around;
   @include mobile{
     display: flex;
@@ -16,13 +17,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 50%;
-    padding-left: 200px;
-    @include desktop2{
-     padding-left: 50px;     
-    }
+   
+  
     @include mobile{
-      padding-left: 0;
+      
       margin-bottom: 10px;
       width: 100%;
       text-align: center;
@@ -71,12 +71,14 @@
     height: 100%;
     display: flex;justify-content: center;
     flex-direction: column;
+    
    @include mobile{
     flex-direction: column-reverse;
    }
     .btn-container{
         padding-top: 50px;
-        margin-left:20px;
+        display: block;
+        flex-wrap: wrap;
         @include mobile{
           display: flex;
           flex-direction: column;
@@ -87,7 +89,7 @@
           font-size: 30px;
         }
         @include desktop1{
-          margin-left: 0;
+         
         }
         @include mobile{
           font-size: 14px;

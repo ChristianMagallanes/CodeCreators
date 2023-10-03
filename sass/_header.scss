@@ -4,9 +4,7 @@
     grid-template-columns: 1fr ;
     height: 100vh; 
     background-image: url(../assets/assets/hero2.jpg);
-      
-   
-    box-shadow: #ffffff 0px 120px 40px 100px;
+    background-attachment: fixed;
     @include mobile{
         flex-direction: column;
         display: flex;
@@ -33,6 +31,9 @@
         height: 346px;
         flex-shrink: 0;
         color: #FFF;
+        @include desktop2{
+            width: 700px;
+        }
         @include mobile{
             text-align: center;
             margin: 0;

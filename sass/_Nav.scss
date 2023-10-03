@@ -12,7 +12,8 @@
   @include mobile{
     width:350px;
    position: relative;
-   top: -120px;
+ 
+  
    flex-direction: column;
    height: auto;
   }
@@ -64,6 +65,9 @@
   line-height: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  @include mobile{
+    font-size: 15px;
+  }
   &:hover {
     color: #ffa500;
   }

@@ -6,12 +6,12 @@
 
 @mixin desktop2 {
     @media screen and (max-width:1114px) {
-        @content
+        @content;
     }
 }
 @mixin tablet {
     @media screen and (min-width:700px) {
-        @content
+        @content;
     }
 }
 @mixin mobile {
