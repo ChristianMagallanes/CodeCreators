@@ -414,7 +414,7 @@ body {
 @media screen and (max-width: 642px) {
   .servicio-card {
     padding: 0;
-    width: 450px;
+    width: 350px;
     height: 200px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
