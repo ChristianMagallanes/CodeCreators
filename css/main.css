@@ -30,7 +30,7 @@ body {
     width: 800px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .navbar {
     width: 410px;
     position: relative;
@@ -59,7 +59,7 @@ body {
       flex-shrink: 0; /* Evitar que el logo se reduzca */
   height: 45px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .logo-container {
     text-align: center;
   }
@@ -75,7 +75,7 @@ body {
   text-transform: uppercase;
   font-family: "Poppins";
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .logo-container .logo {
     font-size: 38px;
     width: 100%;
@@ -97,7 +97,7 @@ body {
   display: flex;
   gap: 34px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .btn-container {
     gap: 18px;
     margin-top: 15px;
@@ -122,7 +122,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .nav-btn {
     font-size: 10px;
   }
@@ -171,7 +171,7 @@ body {
   background-image: url(../assets/assets/hero2.jpg);
   background-attachment: fixed;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -235,7 +235,7 @@ body {
     width: 700px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header .new-product-container {
     text-align: center;
     margin: 0;
@@ -275,7 +275,7 @@ body {
 .header .new-product-container .new-product-name .titulo-span {
   color: #ffa500;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header .new-product-container .new-product-name {
     font-size: 38px;
   }
@@ -356,7 +356,7 @@ body {
           flex-direction: column;
   padding-top: 100px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -410,7 +410,7 @@ body {
   /* container del titulo del servicio */
   /* imagen del servicio */
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card {
     padding: 0;
     width: 450px;
@@ -436,7 +436,7 @@ body {
   width: 700px;
   /* titulo del servicio */
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card .servicio-titulo-container {
     width: 100%;
     text-align: center;
@@ -461,7 +461,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card .servicio-titulo-container .servicio-titulo {
     text-align: center;
     font-size: 28px;
@@ -483,7 +483,7 @@ body {
   left: -150px;
   top: -160px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card .servicios-img-1 {
     height: 150px;
     left: -10px;
@@ -503,7 +503,7 @@ body {
   right: -850px;
   top: -160px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card .servicios-img-2 {
     height: 80px;
     left: -10px;
@@ -523,7 +523,7 @@ body {
   left: -150px;
   top: -160px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicio-card .servicios-img-3 {
     height: 100px;
     left: -10px;
@@ -558,7 +558,7 @@ body {
           box-shadow: 10px 10px 20px 5px;
   width: 500px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios-p-container-1 {
     left: -1px;
     top: -80px;
@@ -614,7 +614,7 @@ body {
           box-shadow: 10px 10px 20px 5px;
   width: 500px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios-p-container-2 {
     left: -1px;
     top: -90px;
@@ -669,7 +669,7 @@ body {
           box-shadow: 10px 10px 20px 5px;
   width: 500px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios-p-container-3 {
     left: -1px;
     top: -80px;
@@ -739,7 +739,7 @@ body {
     height: 405px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card {
     padding-top: 0;
     width: 300px;
@@ -780,7 +780,7 @@ body {
   left: 0px;
   border-radius: 8px 0px 0px 8px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card .servicio2-img {
     height: 150px;
     width: 150px;
@@ -812,7 +812,7 @@ body {
           justify-content: center;
   padding: 5px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card .servicio2-card-d {
     height: auto;
   }
@@ -827,7 +827,7 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-data-container {
     text-align: center;
   }
@@ -848,7 +848,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-card-titulo {
     font-size: 24px;
     margin-bottom: 10px;
@@ -871,7 +871,7 @@ body {
   line-height: 25px;
   opacity: 0.75;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-p {
     text-align: center;
     font-size: 14px;
@@ -1033,7 +1033,7 @@ body {
   gap: 30px;
   padding: auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .planes-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1119,7 +1119,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1177,7 +1177,7 @@ body {
           align-items: center;
   width: 50%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-data {
     margin-bottom: 10px;
     width: 100%;
@@ -1206,7 +1206,7 @@ body {
 .footer .footer-data .log {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-data .log {
     text-align: center;
   }
@@ -1232,7 +1232,7 @@ body {
     width: 400px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-data .p-container {
     width: auto;
   }
@@ -1252,7 +1252,7 @@ body {
   opacity: 0.5;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-data .p-container p {
     margin-bottom: 0;
   }
@@ -1276,7 +1276,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1298,7 +1298,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer .footer-links .btn-container {
     display: -webkit-box;
     display: -ms-flexbox;
