@@ -32,7 +32,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .navbar {
-    width: 450px;
+    width: 410px;
     position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -619,7 +619,6 @@ body {
     left: -1px;
     top: -90px;
     width: 300px;
-    height: auto;
     margin-top: 15%;
   }
 }
@@ -730,8 +729,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #1e1d20;
-  border-radius: 8px;
+  width: 900px;
   margin-bottom: 30px;
+  border-radius: 150px 8px 8px;
 }
 @media screen and (max-width: 1114px) {
   .servicios2-container .servicio2-card {
@@ -777,7 +777,7 @@ body {
   height: 400px;
   width: 400px;
   top: -150px;
-  left: -100px;
+  left: 0px;
   border-radius: 8px 0px 0px 8px;
 }
 @media screen and (max-width: 480px) {
@@ -796,7 +796,7 @@ body {
     left: 0px;
   }
 }
-.servicios2-container .servicio2-card .cards-zx9-data {
+.servicios2-container .servicio2-card .servicio2-card-d {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,31 +813,31 @@ body {
   padding: 5px;
 }
 @media screen and (max-width: 480px) {
-  .servicios2-container .servicio2-card .cards-zx9-data {
+  .servicios2-container .servicio2-card .servicio2-card-d {
     height: auto;
   }
 }
 @media screen and (max-width: 320px) {
-  .servicios2-container .servicio2-card .cards-zx9-data {
+  .servicios2-container .servicio2-card .servicio2-card-d {
     height: auto;
   }
 }
-.servicios2-container .servicio2-card .cards-zx9-data .servicio2-data-container {
+.servicios2-container .servicio2-card .servicio2-card-d .servicio2-data-container {
   width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 @media screen and (max-width: 480px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .servicio2-data-container {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-data-container {
     text-align: center;
   }
 }
 @media screen and (max-width: 320px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .servicio2-data-container {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-data-container {
     text-align: center;
   }
 }
-.servicios2-container .servicio2-card .cards-zx9-data .cards-zx9-title {
+.servicios2-container .servicio2-card .servicio2-card-d .servicio2-card-titulo {
   margin-bottom: 50px;
   color: #ffffff;
   font-family: "Manrope";
@@ -849,18 +849,18 @@ body {
   text-transform: uppercase;
 }
 @media screen and (max-width: 480px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .cards-zx9-title {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-card-titulo {
     font-size: 24px;
     margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 320px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .cards-zx9-title {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-card-titulo {
     font-size: 24px;
     margin-bottom: 10px;
   }
 }
-.servicios2-container .servicio2-card .cards-zx9-data .servicio2-p {
+.servicios2-container .servicio2-card .servicio2-card-d .servicio2-p {
   margin-bottom: 10px;
   margin-right: 150px;
   color: #ffffff;
@@ -872,31 +872,18 @@ body {
   opacity: 0.75;
 }
 @media screen and (max-width: 480px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .servicio2-p {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-p {
     text-align: center;
     font-size: 14px;
     margin: 0;
   }
 }
 @media screen and (max-width: 320px) {
-  .servicios2-container .servicio2-card .cards-zx9-data .servicio2-p {
+  .servicios2-container .servicio2-card .servicio2-card-d .servicio2-p {
     text-align: center;
     font-size: 14px;
     margin: 0;
   }
-}
-.servicios2-container .servicio2-card .cards-zx9-data .cards-zx9-button {
-  cursor: pointer;
-  color: #fff;
-  border: hidden;
-  width: 160px;
-  height: 48px;
-  background: #000;
-  font-family: "Manrope";
-  text-transform: uppercase;
-}
-.servicios2-container .servicio2-card .cards-zx9-data .cards-zx9-button:hover {
-  background: #4C4C4C;
 }
 
 .zx7 {
