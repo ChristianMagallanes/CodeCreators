@@ -5,6 +5,15 @@
     height: 100vh; 
     background-image: url(../assets/assets/hero2.jpg);
     background-attachment: fixed;
+    @include mobile480{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 200vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     @include mobile320{
         flex-direction: column;
         display: flex;
@@ -13,14 +22,8 @@
         background-size: 200vh;
         background-repeat: no-repeat;
         background-position: center;
-        
     }
-    @include desktop1{
-       
-    }
-    @include desktop2{
-        
-    }
+    
     .new-product-container{
         grid-column: 1/2;
         display: flex;
@@ -33,6 +36,12 @@
         color: #FFF;
         @include desktop2{
             width: 700px;
+        }
+        @include mobile480{
+            text-align: center;
+            margin: 0;
+            height: auto;
+            width: auto;
         }
         @include mobile320{
             text-align: center;
@@ -63,6 +72,9 @@
             text-transform: uppercase;
             .titulo-span{
                 color: #ffa500;
+            }
+            @include mobile480{
+                font-size: 38px;
             }
             @include mobile320{
                 font-size: 24px;

@@ -6,6 +6,14 @@
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
+  @include mobile480 {
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 0;
+  }
   @include mobile320 {
     flex-direction: column;
     padding-top: 50px;
@@ -26,6 +34,12 @@
   text-align: center;
   background-color: #1e1d20;
   border-radius: 8px;
+  @include mobile480 {
+    padding: 0;
+    width: 450px;
+    height: 200px;
+    flex-direction: column;
+  }
   @include mobile320 {
     padding: 0;
     width: 300px;
@@ -35,6 +49,10 @@
   /* container del titulo del servicio */
 .servicio-titulo-container{
    width: 700px;
+   @include mobile480{
+    width: 100%;
+     text-align: center;
+    }
    @include mobile320{
    width: 100%;
     text-align: center;
@@ -52,6 +70,12 @@
         line-height: normal;
         letter-spacing: 1px;
         text-transform: uppercase;
+        @include mobile480{
+          text-align: center;
+          font-size: 28px;
+          margin-right: 0;
+          padding-bottom: 10%;
+        }
         @include mobile320{
           text-align: center;
           font-size: 18px;
@@ -68,6 +92,11 @@
     position: relative;
     left: -150px;
     top: -160px;
+    @include mobile480{
+      height: 150px;
+      left: -10px;
+      top: -5px;
+    }
     @include mobile320{
       height: 80px;
       left: -10px;
@@ -79,8 +108,13 @@
     position: relative;
     right: -850px;
     top: -160px;
-    @include mobile320{
+    @include mobile480{
       height: 80px;
+      left: -10px;
+      top: -5px;
+    }
+    @include mobile320{
+      height: 100px;
       left: -10px;
       top: -5px;
     }
@@ -90,6 +124,11 @@
     position: relative;
     left: -150px;
     top: -160px;
+    @include mobile480{
+      height: 100px;
+      left: -10px;
+      top: -5px;
+    }
     @include mobile320{
       height: 80px;
       left: -10px;
@@ -109,6 +148,13 @@
     border-radius: 8px;
     box-shadow: 10px 10px 20px 5px;
     width: 500px;
+    @include mobile480{
+      left: -1px;
+      top: -80px;
+      width: 300px;
+      height: auto;
+      margin-top: 15%;
+    }
     @include mobile320{
       left: -1px;
       top: -80px;
@@ -146,6 +192,13 @@
   border-radius: 8px;
   box-shadow: 10px 10px 20px 5px;
   width: 500px;
+  @include mobile480{
+    left: -1px;
+    top: -90px;
+    width: 300px;
+    height: auto;
+    margin-top: 15%;
+  }
   @include mobile320{
     left: -1px;
     top: -90px;
@@ -182,6 +235,13 @@
   border-radius: 8px;
   box-shadow: 10px 10px 20px 5px;
   width: 500px;
+  @include mobile480{
+    left: -1px;
+      top: -80px;
+      width: 300px;
+      height: auto;
+      margin-top: 15%;
+  }
   @include mobile320{
     left: -1px;
       top: -80px;
