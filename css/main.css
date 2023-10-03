@@ -42,7 +42,7 @@ body {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .navbar {
     width: 250px;
     position: relative;
@@ -64,7 +64,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .logo-container {
     text-align: center;
   }
@@ -81,7 +81,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .logo-container .logo {
     font-size: 20px;
     width: 100%;
@@ -103,7 +103,7 @@ body {
     margin-top: 15px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .btn-container {
     gap: 10px;
   }
@@ -127,7 +127,7 @@ body {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .nav-btn {
     font-size: 10px;
   }
@@ -151,7 +151,7 @@ body {
   -webkit-animation: typing 0.5s steps(13, end), blink-caret 0.5s step-end infinite alternate;
           animation: typing 0.5s steps(13, end), blink-caret 0.5s step-end infinite alternate;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .typing {
     -webkit-animation: typing 900ms steps(300, end), blink-caret 0.2s step-end infinite alternate;
             animation: typing 900ms steps(300, end), blink-caret 0.2s step-end infinite alternate;
@@ -191,7 +191,7 @@ body {
     background-position: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -243,7 +243,7 @@ body {
     width: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .header .new-product-container {
     text-align: center;
     margin: 0;
@@ -280,7 +280,7 @@ body {
     font-size: 38px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .header .new-product-container .new-product-name {
     font-size: 24px;
   }
@@ -373,7 +373,7 @@ body {
     margin-bottom: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -421,7 +421,7 @@ body {
             flex-direction: column;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card {
     padding: 0;
     width: 300px;
@@ -442,7 +442,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card .servicio-titulo-container {
     width: 100%;
     text-align: center;
@@ -469,7 +469,7 @@ body {
     padding-bottom: 10%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card .servicio-titulo-container .servicio-titulo {
     text-align: center;
     font-size: 18px;
@@ -490,7 +490,7 @@ body {
     top: -5px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card .servicios-img-1 {
     height: 80px;
     left: -10px;
@@ -510,7 +510,7 @@ body {
     top: -5px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card .servicios-img-2 {
     height: 100px;
     left: -10px;
@@ -530,7 +530,7 @@ body {
     top: -5px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicio-card .servicios-img-3 {
     height: 80px;
     left: -10px;
@@ -567,7 +567,7 @@ body {
     margin-top: 15%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-1 {
     left: -1px;
     top: -80px;
@@ -588,7 +588,7 @@ body {
   color: #000000;
   padding: 20px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-1 .servicios-p {
     font-size: 14px;
   }
@@ -622,7 +622,7 @@ body {
     margin-top: 15%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-2 {
     left: -1px;
     top: -90px;
@@ -643,7 +643,7 @@ body {
   color: #000000;
   padding: 20px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-2 .servicios-p {
     font-size: 14px;
   }
@@ -678,7 +678,7 @@ body {
     margin-top: 15%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-3 {
     left: -1px;
     top: -80px;
@@ -699,7 +699,7 @@ body {
   color: #000000;
   padding: 20px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios-p-container-3 .servicios-p {
     font-size: 14px;
   }
@@ -754,7 +754,7 @@ body {
     height: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card {
     padding-top: 0;
     width: 300px;
@@ -788,7 +788,7 @@ body {
     left: 0px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card .servicio2-img {
     height: 150px;
     width: 150px;
@@ -817,7 +817,7 @@ body {
     height: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card .servicio2-card-d {
     height: auto;
   }
@@ -832,7 +832,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-data-container {
     text-align: center;
   }
@@ -854,7 +854,7 @@ body {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-card-titulo {
     font-size: 24px;
     margin-bottom: 10px;
@@ -878,7 +878,7 @@ body {
     margin: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .servicios2-container .servicio2-card .servicio2-card-d .servicio2-p {
     text-align: center;
     font-size: 14px;
@@ -1045,7 +1045,7 @@ body {
     padding: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .planes-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1140,7 +1140,7 @@ body {
         flex-direction: column-reverse;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1190,7 +1190,7 @@ body {
             align-items: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-data {
     margin-bottom: 10px;
     width: 100%;
@@ -1211,7 +1211,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-data .log {
     text-align: center;
   }
@@ -1237,7 +1237,7 @@ body {
     width: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-data .p-container {
     width: auto;
   }
@@ -1257,7 +1257,7 @@ body {
     margin-bottom: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-data .p-container p {
     margin-bottom: 0;
   }
@@ -1284,7 +1284,7 @@ body {
             flex-direction: column-reverse;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1313,7 +1313,7 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-links .btn-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1331,7 +1331,7 @@ body {
 .footer .footer-links .btn-container .btn-footer {
   font-size: 30px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .footer .footer-links .btn-container {
     font-size: 14px;
     margin-left: 0;
