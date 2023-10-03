@@ -15,7 +15,7 @@
     }
 }
 @mixin mobile480 {
-    @media screen and (min-width:482px) {
+    @media screen and (max-width:800px) {
         @content;
     }
 }
