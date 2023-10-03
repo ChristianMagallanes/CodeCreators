@@ -6,13 +6,13 @@
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  @include mobile {
+  @include mobile320 {
     flex-direction: column;
     padding-top: 50px;
     justify-content: center;
     align-items: center;
     gap: 0px;
-    margin-bottom: 50%;
+    margin-bottom: 1%;
   }
 }
 
@@ -26,20 +26,21 @@
   text-align: center;
   background-color: #1e1d20;
   border-radius: 8px;
-  @include mobile {
+  @include mobile320 {
     padding: 0;
-    width: 400px;
+    width: 300px;
     height: 150px;
+    flex-direction: column;
   }
   /* container del titulo del servicio */
 .servicio-titulo-container{
    width: 700px;
-   @include mobile{
-    width: 100%;
+   @include mobile320{
+   width: 100%;
     text-align: center;
    }
    /* titulo del servicio */
-    .producto-titulo {
+    .servicio-titulo {
         color: #ffffff;
         margin-right: 150px;
         border-radius: 10px;
@@ -51,8 +52,11 @@
         line-height: normal;
         letter-spacing: 1px;
         text-transform: uppercase;
-        @include mobile{
+        @include mobile320{
+          text-align: center;
           font-size: 18px;
+          margin-right: 0;
+          padding-bottom: 30%;
         }
       }
   }
@@ -64,10 +68,10 @@
     position: relative;
     left: -150px;
     top: -160px;
-    @include mobile{
-      height: 100px;
-      left: -20px;
-      top: -50px;
+    @include mobile320{
+      height: 80px;
+      left: -10px;
+      top: -5px;
     }
   }
   .servicios-img-2 {
@@ -75,10 +79,10 @@
     position: relative;
     right: -850px;
     top: -160px;
-    @include mobile{
-      height: 100px;
-      right: -325px;
-      top: -65px;
+    @include mobile320{
+      height: 80px;
+      left: -10px;
+      top: -5px;
     }
   }
   .servicios-img-3 {
@@ -86,10 +90,10 @@
     position: relative;
     left: -150px;
     top: -160px;
-    @include mobile{
-      height: 100px;
-      left: -20px;
-      top: -50px;
+    @include mobile320{
+      height: 80px;
+      left: -10px;
+      top: -5px;
     }
   }
 }
@@ -105,8 +109,8 @@
     border-radius: 8px;
     box-shadow: 10px 10px 20px 5px;
     width: 500px;
-    @include mobile{
-      left: 70px;
+    @include mobile320{
+      left: -1px;
       top: -80px;
       width: 300px;
       height: auto;
@@ -123,7 +127,7 @@
         font-family: 'Work Sans';
         color: #000000;
         padding: 20px;
-        @include mobile{
+        @include mobile320{
           font-size: 14px;
           
         }
@@ -142,8 +146,8 @@
   border-radius: 8px;
   box-shadow: 10px 10px 20px 5px;
   width: 500px;
-  @include mobile{
-    left: -80px;
+  @include mobile320{
+    left: -1px;
     top: -90px;
     width: 300px;
     height: auto;
@@ -160,7 +164,7 @@
       font-family: 'Work Sans';
       color: #000000;
       padding: 20px;
-      @include mobile{
+      @include mobile320{
         font-size: 14px;
       }
     }
@@ -178,12 +182,12 @@
   border-radius: 8px;
   box-shadow: 10px 10px 20px 5px;
   width: 500px;
-  @include mobile{
-    left: 70px;
-    top: -80px;
-    width: 300px;
-    height: auto;
-    margin-top: 15%;
+  @include mobile320{
+    left: -1px;
+      top: -80px;
+      width: 300px;
+      height: auto;
+      margin-top: 15%;
   }
   .servicios-p {
       text-align: center;
@@ -196,7 +200,7 @@
       font-family: 'Work Sans';
       color: #000000;
       padding: 20px;
-      @include mobile{
+      @include mobile320{
         font-size: 14px;
       }
     }

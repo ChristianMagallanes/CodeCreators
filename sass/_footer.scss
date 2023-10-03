@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-  @include mobile{
+  @include mobile320{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@
     width: 50%;
    
   
-    @include mobile{
+    @include mobile320{
       
       margin-bottom: 10px;
       width: 100%;
@@ -31,7 +31,7 @@
     }
     .log {
       margin-bottom: 50px;
-      @include mobile{
+      @include mobile320{
         text-align: center;
       }
     }
@@ -48,7 +48,7 @@
       @include desktop2{
        width: 400px;   
       }
-      @include mobile{
+      @include mobile320{
         width: auto;
       }
       p {
@@ -60,7 +60,7 @@
         line-height: 25px; /* 166.667% */
         opacity: 0.5;
         margin-bottom: 50px;
-        @include mobile{
+        @include mobile320{
           margin-bottom: 0;
         }
       }
@@ -72,14 +72,14 @@
     display: flex;justify-content: center;
     flex-direction: column;
     
-   @include mobile{
+   @include mobile320{
     flex-direction: column-reverse;
    }
     .btn-container{
         padding-top: 50px;
         display: block;
         flex-wrap: wrap;
-        @include mobile{
+        @include mobile320{
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -91,7 +91,7 @@
         @include desktop1{
          
         }
-        @include mobile{
+        @include mobile320{
           font-size: 14px;
           margin-left: 0;
           padding: 10px;

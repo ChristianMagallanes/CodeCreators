@@ -9,8 +9,8 @@
   @include desktop2 {
     width: 800px;
   }
-  @include mobile{
-    width:350px;
+  @include mobile320{
+    width:250px;
    position: relative;
  
   
@@ -22,7 +22,7 @@
 .logo-container {
   flex-shrink: 0; /* Evitar que el logo se reduzca */
   height: 45px;
-  @include mobile{
+  @include mobile320{
         text-align: center;
     
   }
@@ -31,12 +31,12 @@
     color: #fff;
     text-transform: uppercase;
     font-family: "Poppins";
-    @include mobile{
+    @include mobile320{
       font-size: 20px;
-      @include mobile{
+      
         
         width: 100%;
-      }
+      
     }
     .logo-span {
       color: #ffa500;
@@ -48,7 +48,7 @@
   display: flex;
   gap: 34px;
   
-  @include mobile{
+  @include mobile320{
     gap: 10px;
   }
 }
@@ -65,8 +65,8 @@
   line-height: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  @include mobile{
-    font-size: 15px;
+  @include mobile320{
+    font-size: 10px;
   }
   &:hover {
     color: #ffa500;
@@ -85,7 +85,7 @@
   overflow: hidden;
   animation: typing .5s steps(13, end),
     blink-caret 0.5s step-end infinite alternate;
-    @include mobile{
+    @include mobile320{
       animation: typing 900ms steps(300, end),
       blink-caret .2s step-end infinite alternate;
     }
